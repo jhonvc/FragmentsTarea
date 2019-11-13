@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Home" />
-    <item android:title="Cerrar Sesión" />
-    <item android:title="Salir" />
+    <item android:title="Home"
+        android:id="@+id/inicio"/>
+
+    <item android:title="Iniciar Sesión"
+        android:id="@+id/nuevo"/>
+    <item android:title="Salir"
+        android:id="@+id/cerrar"/>
 </menu>

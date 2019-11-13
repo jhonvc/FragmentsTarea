@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pudge"
+    tools:context=".Registro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/colorBlanco"
+            android:layout_marginRight="20dp"
+            android:hint="Ingrese su ID"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textColor="@color/colorBlanco"
+            android:layout_marginBottom="80dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Ingrese su clave"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="80dp"
+            android:textColor="@color/colorBlanco"
+            android:ems="10"
+            android:textColorHint="@color/colorBlanco"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/botones_estilos"
+            android:textColor="@color/colorBlanco"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:text="Registrese" />
+
+        <Button
+            android:id="@+id/button2"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorBlanco"
+            android:background="@drawable/botones_estilos"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+
+            android:layout_height="wrap_content"
+            android:text="Iniciar" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="TextView" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
